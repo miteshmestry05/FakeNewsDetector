@@ -1,0 +1,5 @@
+Flask
+transformers
+numpy
+pandas
+gunicorn
