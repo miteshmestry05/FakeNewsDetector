@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake News Detector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 40px;
+        }
+        textarea {
+            width: 60%;
+            height: 100px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>AI-Powered Fake News Detector</h1>
+    <form method="POST">
+        <textarea name="news_text" placeholder="Paste your news article here..."></textarea><br><br>
+        <button type="submit">Check Credibility</button>
+    </form>
+    {% if result %}
+        <h2>Analysis Result: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>
