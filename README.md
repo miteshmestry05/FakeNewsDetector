@@ -16,5 +16,14 @@ Fake news spreads quickly and affects public opinion. This project utilizes **AI
    3. Run the Flask app:python news_checker.py
    4.  Open **http://127.0.0.1:5000/** in your browser.
 
+---
+
+### 📢 Future Enhancements
+✅ **Improve AI accuracy** using advanced models  
+✅ **Deploy online for global accessibility**  
+✅ **Enhance UI with better design**  
+
+👨‍💻 **Contributions & Feedback Welcome!** 🚀  
+
 
  
