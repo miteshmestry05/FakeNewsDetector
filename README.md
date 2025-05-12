@@ -17,8 +17,4 @@ Fake news spreads quickly and affects public opinion. This project utilizes **AI
    4.  Open **http://127.0.0.1:5000/** in your browser.
 
 
- Website Interface:
-![Fake News Detector ](https://raw.githubusercontent.com/miteshmestry05/FakeNewsDetector/main/screenshot.png)
-      
-
-   
+ 
